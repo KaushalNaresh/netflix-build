@@ -71,13 +71,17 @@
     margin: 20px;
 }
 
-.loginScreen__input > form > input{
+.loginScreen__input > form > div > input{
     padding: 10px;
     outline-width: 0;
-    height: 30px;
     width: 30%;
     border: none;
     max-width: 600px;
+}
+
+.loginScreen__input > form > div{
+    display: flex;
+    justify-content: center;
 }
 
 .loginScreen__getStarted{

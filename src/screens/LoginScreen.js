@@ -35,12 +35,14 @@ function LoginScreen() {
 
                     <div className='loginScreen__input'>
                         <form>
-                            <input type='email' placeholder="Email Address"/>
-                            <button 
-                                onClick={() => setSignIn(true)}
-                                className='loginScreen__getStarted'>
-                                GET STARTED
-                            </button>
+                            <div>
+                                <input type='email' placeholder="Email Address"/>
+                                <button 
+                                    onClick={() => setSignIn(true)}
+                                    className='loginScreen__getStarted'>
+                                    GET STARTED
+                                </button>
+                            </div>
                         </form>
                     </div>
                 </>
